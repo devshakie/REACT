@@ -1,0 +1,21 @@
+.shoe-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: visible; 
+  }
+  
+  .shoe-image {
+    max-width: 120%; 
+    height: auto; 
+    transform: translateX(-36px) translateY(-10px); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .shoe-image-wrapper:hover .shoe-image {
+    transform: translateX(-40px) translateY(-10px); 
+  }
+  
